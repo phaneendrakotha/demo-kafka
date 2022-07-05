@@ -1,7 +1,6 @@
 name: Kafka Publish
 
 on: [push, pull_request, create, issue_comment, delete]
-
 jobs:
   build:
     runs-on: ubuntu-latest
